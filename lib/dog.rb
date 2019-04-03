@@ -17,3 +17,19 @@ class Dog
   end
   
 end
+
+class Animal
+  
+  def species= (my_species) 
+    @my_species = "cat"
+  end
+
+  def species
+    puts "Hi! I'm a #{@my_species}"
+  end
+end
+
+
+fido = Animal.new
+
+fido.species
